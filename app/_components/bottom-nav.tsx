@@ -51,7 +51,6 @@ export async function BottomNav({ activePage = "home" }: BottomNavProps) {
           />
         </button>
       )}
-
       <Link href="/stats" className="p-3">
         <ChartNoAxesColumn
           className={cn(
